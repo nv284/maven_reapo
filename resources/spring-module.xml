@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+
+	<bean id="hello" class="com.maven.demo1.HelloWorld">
+	<property name="name" value="Maven Demo"></property>
+	
+	</bean>
+	<bean id="emp" class="com.maven.demo1.Emp">
+	<property name="emp_name" value="Ashwin"></property> 
+	<property name="emp_id" value="123"></property>
+	</bean>
+	<bean id="id1" lazy-init="true"></bean>
+	
+	
+	</beans>
